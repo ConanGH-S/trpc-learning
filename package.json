@@ -9,18 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.51.21",
+    "@trpc/client": "11.0.0-rc.477",
+    "@trpc/next": "11.0.0-rc.477",
+    "@trpc/react-query": "11.0.0-rc.477",
+    "@trpc/server": "11.0.0-rc.477",
+    "better-sqlite3": "^11.1.2",
+    "drizzle-kit": "^0.23.2",
+    "drizzle-orm": "^0.32.2",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/better-sqlite3": "^7.6.11",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "typescript": "^5"
   }
 }
